@@ -2,9 +2,9 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from win10toast import ToastNotifier
 
-crn_interest = ['31176','30084','31171','30588']
+crn_interest = ['31176','30084','31171','30588'] #CRN of Courses of interest
 #Fetch Course Details
-response = urlopen("https://dalonline.dal.ca/PROD/fysktime.P_DisplaySchedule?s_term=201930&s_crn=&s_subj=CSCI&s_numb=&n=21&s_district=All") #PAGE URL
+response = urlopen("") #PAGE URL
 page_source = response.read()
 soup = BeautifulSoup(page_source, 'lxml')
 table = soup.findAll("table",{'class':'dataentrytable'})[1]
