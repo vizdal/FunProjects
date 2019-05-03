@@ -1,0 +1,17 @@
+{
+ "manifest_version": 2,
+ "name": "Dal Course Tracker",
+ "description": "Having difficulties in Finding courses? Install this extension and it will keep track of everything.",
+ "version": "1",
+ "author": "Viz",
+"browser_action": {
+   "default_popup": "index.html",
+   "default_title": "Dal Course Tracker",
+   "default_icon":"img/dal.png"
+},
+"background": {
+      "scripts": ["script/background.js"],
+      "persistent": false
+    },
+ "permissions": ["https://dalonline.dal.ca/","activeTab","storage","notifications"]
+}

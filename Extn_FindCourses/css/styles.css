@@ -1,0 +1,50 @@
+body{
+	height:400px;
+	width:400px;
+}
+.dal-icon-home{
+	width:30%;
+	display: block;
+	margin:auto;
+}
+.home-parent{
+  display: block;
+  margin:auto;
+}
+.dal-title{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.course-finder-title{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 500;
+	color: #ef5777;	
+}
+.spinner{
+	text-align: center;
+	margin-top: 2.5em;
+}
+.text-center{
+	text-align: center;
+}
+.txtgray{
+	color:grey;
+}
+.f1{
+	font-size: 1em;
+}
+.mt1{
+	margin-top: 1em;
+}
+.mt5{
+	margin-top: 5em;
+}
+.textBox{
+	width: 12em;
+	padding: 0.5em;
+	border:0;
+	border-bottom: 1px solid;
+}
